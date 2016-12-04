@@ -1,0 +1,69 @@
+#old code
+
+
+    '''
+    with open(hostname_filename, 'r+') as f:
+        hosts = f.read().split('\n')
+    
+    master_string = []
+    num_resolves = 0
+
+    for host in hosts:
+        if dns_query_server:
+            shell_args = ['dig', host, dns_query_server]
+            #output_string = sp.check_output('dig ' + host + ' ' + dns_query_server, shell=True)
+        else:
+            shell_args = ['dig', '+trace', '+tries=1', '+nofail', host]
+            #output_string = sp.check_output('dig +trace +tries=1 +nofail ' + host, shell=True)
+        pipe = sp.Popen(shell_args, stdout=sp.PIPE, stderr=sp.STDOUT)
+        output_string = pipe.communicate()[0]
+
+        resolves = output_string.split('==================')
+        resolves = [r for r in resolves if r != '']
+
+        for r in resolves:
+            queries = r.split('\n')
+            queries = [q for q in queries if q != '' and '=' not in q]
+            queries = queries[2:]
+
+
+
+            name = host
+            if "timed out" in r:
+                success = False
+            else:
+                success = True 
+#            master_string[num_resolve] = {}
+            query_result = []
+            if success:
+                master_string[num_resolves] = {"Name": name, "Success": success, "Queries": query_result}
+            else:
+                master_string[num_resolves] = {"Name": name, "Success": success}
+                continue
+
+            #WATCH FOR THE FIRST ONE HERE
+            num_queries = 0
+            for query in queries:
+                words = query.split()
+                time = words[len(query)-1]
+                
+                query_result[num_queries] = {"Time": time, "Answers": answers}
+                #Take care of the first 2 lines in the first one
+                answers = []
+                lines = query.split('\n')
+                num_answers = 0
+                for line in lines:
+                    chars = line.split()
+                    answers[num_answers] = {"Query Name": chars[0], "Data": chars[3], 
+                            "Query Type": chars[4], "TTL": chars[1]}
+                    
+                    num_answers += 1
+
+                num_queries += 1
+
+            num_resolve += 1
+        
+
+    with (output_filename, 'w+') as f2:
+        json.dump(master_string, f2)
+'''

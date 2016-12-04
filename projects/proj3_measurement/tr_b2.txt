@@ -1,0 +1,61 @@
+tpr-route-server.saix.net
+  1 tpr-ip-esr-1-fe-1-0-3.telkom-ipnet.co.za (196.25.9.45) 0 msec 0 msec 0 msec
+  2 lon-ip-hsll-1-gig-5-1-0.telkom-ipnet.co.za (196.43.9.50) 200 msec 200 msec 200 msec
+  3 tenge7-2.var01.ldn04.pccwbtn.net (63.218.243.17) 200 msec 200 msec 200 msec
+  4  *  *  *
+  5 xe-7-0-0.0.rtsw.losa.net.internet2.edu (64.57.20.247) [AS11164] 404 msec 408 msec 400 msec
+  6 64.57.20.83 (64.57.20.83) [AS11164] 420 msec 400 msec 408 msec
+  7 dc-lax-agg6--lax-agg7-100g.cenic.net (137.164.11.10) [AS2152] 404 msec 408 msec 400 msec
+  8 dc-svl-agg4--lax-agg6-100ge.cenic.net (137.164.11.1) [AS2152] 400 msec 404 msec 400 msec
+  9 dc-oak-agg4--svl-agg4-100ge.cenic.net (137.164.46.144) [AS2152] 404 msec 400 msec 404 msec
+ 10 ucb--oak-agg4-10g.cenic.net (137.164.50.31) [AS2152] 344 msec 340 msec 344 msec
+ 11  *  *  *
+ 12  *  *  *
+ 13  *  *  *
+ 14  *  *  *
+ 15  *  *  *
+ 16  *  *  *
+ 17  *  *  *
+ 18  *  *  *
+ 19  *  *  *
+ 20  * t2-3.inr-202-reccev.berkeley.edu (128.32.0.39) [AS25] 388 msec *
+
+route-server.ip-plus.net
+  1 i68geb-005-tunnel-ip1.bb.ip-plus.net (193.247.171.25) [AS65000] 8 msec 8 msec 8 msec
+  2 i00eqx-005-ten0-2-1-0.bb.ip-plus.net (138.187.159.53) [AS65098] 104 msec 100 msec 100 msec
+  3 eeq-exchange.tr01-asbnva01.transitrail.net (206.126.236.45) 100 msec 96 msec 100 msec
+  4 xe-7-0-0.0.rtsw.losa.net.internet2.edu (64.57.20.247) [AS11164] 160 msec 156 msec 160 msec
+  5 64.57.20.83 (64.57.20.83) [AS11164] 160 msec 160 msec 160 msec
+  6 dc-lax-agg6--lax-agg7-100g.cenic.net (137.164.11.10) [AS2152] 160 msec 160 msec 160 msec
+  7 dc-svl-agg4--lax-agg6-100ge.cenic.net (137.164.11.1) [AS2152] 168 msec 168 msec 168 msec
+  8 dc-oak-agg4--svl-agg4-100ge.cenic.net (137.164.46.144) [AS2152] 168 msec 168 msec 168 msec
+  9 ucb--oak-agg4-10g.cenic.net (137.164.50.31) [AS2152] 172 msec 168 msec 168 msec
+ 10 t2-3.inr-202-reccev.berkeley.edu (128.32.0.39) [AS25] 268 msec *  *
+
+route-views.oregon-ix.net
+  1 vl-51.uonet1-gw.uoregon.edu (128.223.51.2) [AS3582] 13 msec 1 msec 1 msec
+  2 2.bundle-ether10.uonet10-gw.uoregon.edu (128.223.2.10) [AS3582] 5 msec 0 msec 3 msec
+  3 internet2-re1-gw.oregon-gigapop.net (198.32.165.126) [AS58511] 35 msec 25 msec 24 msec
+  4 hpr-lax-hpr2--i2-r&e.cenic.net (137.164.26.200) [AS2153] 25 msec 26 msec 24 msec
+  5 hpr-svl-hpr3--lax-hpr3-100ge.cenic.net (137.164.25.74) [AS2153] 28 msec 28 msec 28 msec
+  6 hpr-ucb--svl-hpr-10g.cenic.net (137.164.27.133) [AS 2153] 31 msec 30 msec 30 msec
+  7 t1-3.inr-202-reccev.berkeley.edu (128.32.0.67) [AS25] 39 msec *  39 msec
+
+route-views.on.bb.telus.com
+  1 toroonxngr00.bb.telus.com (154.11.63.85) [AS852] 0 msec 0 msec 4 msec
+  2 toroonxngr00.bb.telus.com (154.11.6.86) [AS852] 0 msec 0 msec 0 msec
+  3 NYCMNY83CI01.bb.telus.com (75.154.223.252) 16 msec
+    75.154.223.254 (75.154.223.254) 12 msec
+    NYCMNY83CI01.bb.telus.com (75.154.223.252) 16 msec
+  4 rtr.loss.net.internet2.edu (198.32.118.161) 12 msec 12 msec 12 msec
+  5 ae-0.0.rtr.eqch.net.internet2.edu (64.57.20.33) [AS11164] 24 msec 24 msec 24 msec
+  6 ae-1.80.rtsw.chic.net.internet2.edu (64.57.20.150) [AS11164] 24 msec 24 msec 24 msec
+  7 ae-0.80.rtsw.kans.net.internet2.edu (64.57.20.148) [AS11164] 36 msec 32 msec 36 msec
+  8 ae-0.80.rtsw.salt.net.internet2.edu (64.57.20.146) [AS11164] 56 msec 56 msec 56 msec
+  9 ae-2.80.rtsw.losa.net.internet2.edu (64.57.20.144) [AS11164] 76 msec 76 msec 80 msec
+ 10 64.57.20.83 (64.57.20.83) [AS11164] 80 msec 80 msec 80 msec
+ 11 dc-lax-agg6--lax-agg7-100g.cenic.net (137.164.11.10) [AS2152] 84 msec 80 msec 84 msec
+ 12 dc-svl-agg4--lax-agg6-100ge.cenic.net (137.164.11.1) [AS2152] 80 msec 80 msec 80 msec
+ 13 dc-oak-agg4--svl-agg4-100ge.cenic.net (137.164.46.144) [AS2152] 80 msec 80 msec 80 msec
+ 14 ucb--oak-agg4-10g.cenic.net (137.164.50.31) [AS2152] 84 msec 84 msec 88 msec
+ 15 t2-3.inr-202-reccev.berkeley.edu (128.32.0.39) [AS25] 256 msec *  *

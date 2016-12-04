@@ -1,0 +1,29 @@
+ traceroute to google.com (216.58.194.206), 64 hops max, 52 byte packets
+ 1  [AS0] xe-1/2/0-547.inr-306-sut.berkeley.edu (10.142.144.1)  2.311 ms  1.660 ms  1.374 ms
+ 2  [AS25] t5-4.inr-202-reccev.berkeley.edu (128.32.0.58)  1.724 ms  1.822 ms  1.770 ms
+ 3  [AS25] xe-5-2-0.inr-002-reccev.berkeley.edu (128.32.0.38)  1.584 ms  1.711 ms  1.564 ms
+ 4  [AS2152] oak-agg4--ucb-10g.cenic.net (137.164.50.30)  46.444 ms  43.057 ms  45.147 ms
+ 5  [AS15169] 74.125.48.172 (74.125.48.172)  46.048 ms  47.677 ms  46.063 ms
+ 6  [AS15169] 108.170.243.1 (108.170.243.1)  3.624 ms
+    [AS15169] 108.170.242.225 (108.170.242.225)  3.815 ms
+    [AS15169] 108.170.243.1 (108.170.243.1)  4.386 ms
+ 7  [AS15169] 108.170.237.105 (108.170.237.105)  3.779 ms  4.629 ms  3.746 ms
+ 8  [AS15169] sfo03s01-in-f206.1e100.net (216.58.194.206)  54.606 ms  48.741 ms  49.245 ms
+
+ traceroute to facebook.com (216.58.194.206), 64 hops max, 52 byte packets
+ 1  [AS0] xe-1/2/0-547.inr-306-sut.berkeley.edu (10.142.144.1)  2.385 ms  1.418 ms  1.382 ms
+ 2  [AS25] t5-4.inr-202-reccev.berkeley.edu (128.32.0.58)  1.760 ms  1.952 ms  1.675 ms
+ 3  [AS25] xe-5-2-0.inr-002-reccev.berkeley.edu (128.32.0.38)  1.769 ms  1.745 ms  1.844 ms
+ 4  [AS2152] oak-agg4--ucb-10g.cenic.net (137.164.50.30)  49.576 ms  49.982 ms  51.267 ms
+ 5  [AS2152] facebook--oak-agg4-10g.cenic.net (198.32.251.133)  54.651 ms  53.573 ms  53.545 ms
+ 6  [AS32934] po111.asw01.sjc1.tfbnw.net (31.13.25.30)  53.742 ms
+    [AS32934] po111.asw03.sjc1.tfbnw.net (31.13.25.82)  55.145 ms
+    [AS32934] po111.asw04.sjc1.tfbnw.net (31.13.25.180)  47.590 ms
+ 7  [AS32934] po231.psw02.sjc2.tfbnw.net (74.119.79.73)  45.762 ms
+    [AS32934] po211.psw01.sjc2.tfbnw.net (74.119.79.41)  47.918 ms
+    [AS32934] po211.psw03.sjc2.tfbnw.net (74.119.79.83)  58.978 ms
+ 8  [AS32934] 173.252.67.73 (173.252.67.73)  51.527 ms
+    [AS32934] 173.252.67.119 (173.252.67.119)  50.641 ms
+    [AS32934] 173.252.67.121 (173.252.67.121)  54.235 ms
+ 9  [AS32934] edge-star-mini-shv-01-sjc2.facebook.com (31.13.77.36)  51.411 ms  52.668 ms  55.346 ms
+

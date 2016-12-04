@@ -1,0 +1,34 @@
+traceroute to google.com (216.58.195.238), 64 hops max, 52 byte packets
+ 1  [AS0] xe-1/2/0-547.inr-306-sut.berkeley.edu (10.142.144.1)  2.031 ms  2.022 ms  2.020 ms
+ 2  [AS25] t5-4.inr-202-reccev.berkeley.edu (128.32.0.58)  2.394 ms  1.980 ms  1.832 ms
+ 3  [AS25] xe-5-2-0.inr-002-reccev.berkeley.edu (128.32.0.38)  2.140 ms  1.771 ms  2.333 ms
+ 4  [AS2152] oak-agg4--ucb-10g.cenic.net (137.164.50.30)  2.721 ms  2.502 ms  2.528 ms
+ 5  [AS15169] 74.125.48.172 (74.125.48.172)  3.256 ms  3.271 ms  3.117 ms
+ 6  [AS15169] 108.170.243.1 (108.170.243.1)  3.618 ms
+    [AS15169] 108.170.242.225 (108.170.242.225)  4.610 ms  3.777 ms
+ 7  [AS15169] 108.170.237.119 (108.170.237.119)  3.699 ms  4.574 ms  3.589 ms
+ 8  [AS15169] sfo03s06-in-f238.1e100.net (216.58.195.238)  4.011 ms  4.014 ms  4.087 ms
+
+
+traceroute to zanvarsity.ac.tz (41.204.148.1), 64 hops max, 52 byte packets
+ 1  [AS0] xe-1/2/0-547.inr-306-sut.berkeley.edu (10.142.144.1)  3.219 ms  2.425 ms  1.805 ms
+ 2  [AS25] t5-4.inr-202-reccev.berkeley.edu (128.32.0.58)  1.781 ms  1.734 ms  1.716 ms
+ 3  [AS25] xe-5-2-0.inr-001-sut.berkeley.edu (128.32.0.66)  2.397 ms  1.625 ms  1.697 ms
+ 4  [AS2152] dc-sfo-agg-1--ucb-10ge.cenic.net (137.164.50.16)  3.141 ms  2.743 ms  2.489 ms
+ 5  [AS2152] dc-svl-agg4--sfo-agg1-10ge-1.cenic.net (137.164.22.27)  4.181 ms  4.397 ms  4.229 ms
+ 6  [AS3356] 10-1-1-91.ear1.sanjose1.level3.net (4.15.122.45)  4.082 ms  4.228 ms  5.209 ms
+ 7  [AS3356] ae-118-3504.edge3.london15.level3.net (4.69.167.86)  138.112 ms
+    [AS3356] ae-228-3604.edge3.london15.level3.net (4.69.167.102)  138.493 ms
+    [AS3356] ae-116-3502.edge3.london15.level3.net (4.69.167.78)  139.674 ms
+ 8  [AS3356] ae-228-3604.edge3.london15.level3.net (4.69.167.102)  139.228 ms
+    [AS3356] ae-227-3603.edge3.london15.level3.net (4.69.167.98)  138.090 ms
+    [AS3356] ae-115-3501.edge3.london15.level3.net (4.69.167.74)  159.371 ms
+ 9  [AS9057] wananchi-gr.edge3.london15.level3.net (212.113.9.182)  139.711 ms  138.517 ms  138.705 ms
+10  [AS15399] 238.2.212.41.in-addr.arpa (41.212.2.238)  138.600 ms  138.465 ms  138.274 ms
+11  [AS15399] 82.2.212.41.in-addr.arpa (41.212.2.82)  274.165 ms  274.520 ms  334.319 ms
+12  [AS36930] 41.204.128.169 (41.204.128.169)  314.319 ms  380.895 ms  275.493 ms
+13  * * *
+14  [AS36930] 41.204.148.5 (41.204.148.5)  381.559 ms *  276.548 ms
+15  [AS36930] 41.204.148.1 (41.204.148.1)  320.297 ms  374.463 ms  282.628 ms
+
+
